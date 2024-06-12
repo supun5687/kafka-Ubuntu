@@ -60,6 +60,8 @@ Restart=on-abnormal
 
 
 WantedBy=multi-user.target
+
+Next steps
 --------------------------
 
 Step 5: Configure Kafka
@@ -103,7 +105,9 @@ Restart=on-abnormal
 [Install]
 
 
-WantedBy=multi-user.target-
+WantedBy=multi-user.target
+
+Next
 -----------------------
 
 sudo systemctl daemon-reload
